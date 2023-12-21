@@ -7,9 +7,9 @@ const PRIVATE_KEY="96384276a09231d3b185cb9c2ced0d4de4a3231f4f5c8486c9ef5177ecd16
 module.exports = {
   solidity: "0.8.19",
   networks: {
-    goerli: {
+    sepolia: {
       url: ALCHEMY_API_URL,
-      accounts: [PRIVATE_KEY]
+      accounts: [`0x${PRIVATE_KEY}`]
     }
   }
 };
