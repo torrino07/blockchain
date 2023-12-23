@@ -9,8 +9,5 @@ npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.js
-npx hardhat run scripts/deploy_simple_storage.js --network sepolia
-
+npx hardhat run scripts/deploy.ts
 ```
-
