@@ -1,17 +1,15 @@
-import { ethers } from 'hardhat';
+import { ethers } from "hardhat";
 
 async function main() {
-  const SimpleCounter = await ethers.getContractFactory('SimpleCounter');
-  const simpleCounter = await SimpleCounter.deploy(0) as any;
+  const CarbonCreditToken = await ethers.getContractFactory("CarbonCreditToken");
+  const carbonCreditToken = await CarbonCreditToken.deploy();
 
-  //await simpleCounter.deployed();
+  //await carbonCreditToken.deployed();
 
-  console.log(`SimpleCounter deployed to: ${simpleCounter.target}`);
-  console.log(simpleCounter)
+  console.log(`CarbonCreditToken deployed to: ${carbonCreditToken.target}`);
 }
 
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-
