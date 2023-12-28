@@ -1,0 +1,89 @@
+{
+  "contracts": [
+    {
+      "address": "0xEbdD6A8a0B4BA432309585664534E674d2C77FdC",
+      "contracts": "contracts/CarbonCredit.sol",
+      "name": "CarbonCredit"
+    }
+  ],
+  "platforms": [
+    {
+      "name": "alchemy",
+      "url": "https://eth-sepolia.g.alchemy.com/v2/Gk8XenOHkElitZ4N6E60lc3qKsZcXWB4",
+      "wss": "wss://eth-sepolia.g.alchemy.com/v2/Gk8XenOHkElitZ4N6E60lc3qKsZcXWB4"
+    }
+  ],
+  "issuers": [
+    {
+      "id": 1,
+      "name": "Tree for Farmer"
+    },
+    {
+      "id": 2,
+      "name": "Acorn"
+    }
+  ],
+  "traders": [
+    {
+      "id": 3,
+      "name": "Microsoft"
+    }
+  ],
+  "projects": [
+    {
+      "id": 4,
+      "name": "farmer",
+      "project_id": "23dww"
+    }
+  ],
+  "wallets": [
+    {
+      "address": "0x8BD8BaA9DfE68146Af10534e3e058f4C3E1C5640",
+      "role": "admin",
+      "isOwner": true,
+      "isMinter": true,
+      "id": 0,
+      "private_key": "96384276a09231d3b185cb9c2ced0d4de4a3231f4f5c8486c9ef5177ecd16a57"
+    },
+    {
+      "address": "0x6ce99eC2c5455Ae932ce6B1B8001e01b019415Af",
+      "role": "issuer",
+      "isOwner": false,
+      "isMinter": true,
+      "id": 1,
+      "private_key": "2ccd1edf9cb742bd9894158934339942a76dfa4ca0de7154c4d37e4395053184"
+    },
+    {
+      "address": "0x595e34B216FF6F835a923ECB3e53877854A99Bf2",
+      "role": "issuer",
+      "isOwner": false,
+      "isMinter": true,
+      "id": 2,
+      "private_key": "2eaf25254e7397b7871f4c2a9551e7675fd2b14f5112e2a2095745c34a0fd145"
+    },
+    {
+      "address": "0x98ac63180B6666684d083aaFcde0D750fA74bcf7",
+      "role": "trader",
+      "isOwner": false,
+      "isMinter": false,
+      "id": 3,
+      "private_key": "311bf44cf45a49d3eb05d989d1843f8ff7d558afe465a5fe83a1ce491e3e4a77"
+    },
+    {
+      "address": "0x17E69B87184769f3f664C5472d7Af117CF79d8C7",
+      "role": "project",
+      "isOwner": false,
+      "isMinter": false,
+      "id": 4,
+      "private_key": "c8cfc458568cbb3f0525024c77d3795d43bfa800700fd92f598db5e6d2671e14"
+    },
+    {
+      "address": "0x470DdE1108FDf80e7728ccac2742AB25EEeC645E",
+      "role": "marketplace",
+      "isOwner": false,
+      "isMinter": false,
+      "id": 5,
+      "private_key": "f03770f596d932fecca634d2bc16033d7b3a5f0a9d483a5c1bd0c35c4fd28733"
+    }
+  ]
+}

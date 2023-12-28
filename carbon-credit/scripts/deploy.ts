@@ -1,12 +1,12 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const CarbonCreditToken = await ethers.getContractFactory("CarbonCreditToken");
-  const carbonCreditToken = await CarbonCreditToken.deploy();
+  const CarbonCredit = await ethers.getContractFactory("CarbonCredit");
+  const carbonCredit = await CarbonCredit.deploy();
 
   //await carbonCreditToken.deployed();
 
-  console.log(`CarbonCreditToken deployed to: ${carbonCreditToken.target}`);
+  console.log(`CarbonCredit deployed to: ${carbonCredit.target}`);
 }
 
 main().catch((error) => {

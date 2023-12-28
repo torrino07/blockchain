@@ -3,7 +3,7 @@ import { ethers } from 'hardhat';
 import { CarbonCreditToken } from '../typechain-types';
 import { Signer } from 'ethers';
 
-describe('CarbonCreditToken', function () {
+describe('CarbonCredit', function () {
   let token: CarbonCreditToken;
   let owner: Signer;
   let addr1: Signer;
